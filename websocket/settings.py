@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "websocket-6ov1.onrender.com",
+    "127.0.0.1",
 ]
 
 
@@ -41,7 +42,9 @@ INSTALLED_APPS = [
     'daphne',
     'django.contrib.staticfiles',
     'channels',
+    'rest_framework',
     'ws',
+
 ]
 
 MIDDLEWARE = [
