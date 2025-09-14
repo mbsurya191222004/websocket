@@ -8,7 +8,7 @@ class RegionListView(APIView):
     def get(self, request):
         data = [  
             {
-                "identifier": "Lachen",
+                "identifier": "altmash ki gand",
                 "latitude": 27.733333,
                 "longitude": 88.55,
                 "radius": 50000,
