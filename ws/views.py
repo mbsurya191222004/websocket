@@ -11,7 +11,7 @@ class RegionListView(APIView):
                 "identifier": "Lachen",
                 "latitude": 27.733333,
                 "longitude": 88.55,
-                "radius": 50000000000000000000000000000000000000000000000000000000000000000000000000,
+                "radius": 50000,
                 "notifyOnEnter": True,
                 "notifyOnExit": True,
                 "entered": False
