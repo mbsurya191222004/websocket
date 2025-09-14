@@ -7,15 +7,7 @@ from rest_framework.views import APIView
 class RegionListView(APIView):
     def get(self, request):
         data = [  
-            {
-                "identifier": "altmash ki gand",
-                "latitude": 28.367007578123232,
-                "longitude": 77.54140201277558,
-                "radius": 50000,
-                "notifyOnEnter": True,
-                "notifyOnExit": True,
-                "entered": False
-            },
+
             {
                 "identifier": "Lachen",
                 "latitude": 27.733333,
