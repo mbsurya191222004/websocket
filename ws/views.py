@@ -9,8 +9,8 @@ class RegionListView(APIView):
         data = [  
             {
                 "identifier": "altmash ki gand",
-                "latitude": 27.733333,
-                "longitude": 88.55,
+                "latitude": 28.367007578123232,
+                "longitude": 77.54140201277558,
                 "radius": 50000,
                 "notifyOnEnter": True,
                 "notifyOnExit": True,
